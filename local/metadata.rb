@@ -1,0 +1,7 @@
+name 'local'
+maintainer 'Ken Young'
+maintainer_email 'kenzy@acm.org'
+license 'apache2popd'
+description 'Installs/Configures local'
+long_description 'Installs/Configures local'
+version '0.1.0'

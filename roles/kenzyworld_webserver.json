@@ -1,0 +1,6 @@
+{
+  "name": "kenzyworld_webserver",
+  "run_list": [
+    "recipe[kenzyworld]"
+  ]
+}

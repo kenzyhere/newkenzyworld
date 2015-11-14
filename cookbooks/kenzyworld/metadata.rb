@@ -1,0 +1,16 @@
+name             'kenzyworld'
+maintainer       'YOUR_COMPANY_NAME'
+maintainer_email 'kenzy@acm.org'
+license          'All rights reserved'
+description      'Installs/Configures kenzyworld'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '0.1.0'
+depends			 'apache2', '>=3.1.0'
+depends			 'iptables','>=1.0.0'
+depends			 'kenzy_base','=0.1.0'
+depends			 'mysql','>=6.1.1'
+depends			 'ntp','>=1.8.6'
+depends			 'php','>=1.7.2'
+depends			 'ruby','>=0.9.3'
+depends			 'selinux','>=0.9.0'
+

@@ -1,0 +1,8 @@
+{
+  "name": "elasticsearch",
+  "description": "for installing elasticsearch",
+  "run_list": [
+    "recipe[selinux::disabled]",
+    "recipe[brcd_elasticsearch]"
+  ]
+}
